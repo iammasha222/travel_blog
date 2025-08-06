@@ -1,0 +1,82 @@
+.pageWidth{
+    margin: 40px 40px 40px 40px;
+}
+.breadcrumbs{
+    text-decoration: underline;
+    display:flex;
+}
+.link{
+    color:black;
+}
+
+.marg{
+    margin-bottom: 0px;
+}
+.marg2{
+    margin-top: 16px;
+}
+#save{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border:1px solid black;
+    background-color: white;
+}
+#save:hover{
+    background-color: lightgray;
+}
+#login{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border:1px solid black;
+    background-color: white;
+}
+#login:hover{
+    background-color: lightgray;
+}
+#logout{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border:1px solid black;
+    background-color: white;
+}
+#logout:hover{
+    background-color: lightgray;
+}
+.inputField{
+    width:40vw;
+    
+}
+.extra{
+    width:40.5vw;
+}
+.end{
+    display: ruby;
+}
+.textBold{
+    font-weight: bold;
+}
+h2{
+    font-weight: normal;
+}
+.photoSmall{
+    width: 200px;
+}
+.approval{
+    display: block;
+}
+.delete{
+    background-color: transparent;
+    border:none;
+    font-size: 16px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.large-input {
+    height: 200px;
+}
+.error{
+    color:red;
+}

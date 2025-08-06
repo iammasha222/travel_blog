@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../assets/css/main.css">
+        <title>Login</title>
+    </head>
+    <body>
+        <div class="pageWidth">
+            <div class="breadcrumbs">
+                <a class="link" href="../php-pages/startpage.php">Startseite |</a>
+                <a class="link" href="../php-pages/new_article.php">Neuen Artikel anlegen |</a>
+                <a class="link" href="../php-pages/login.php">Login</a>
+                
+            </div>
+
+            <h1>Hallo, ###</h1>
+            <p>Sie haben sich erfolgreich angemeldet!</p>
+            <div>
+                <p>Sie können jetzt:</p>
+                <li>Neue Artikel hinzufügen</li>
+                <li>Vorhandene Artikel bearbeiten</li>
+                <li>Vorhandene Artikel löschen</li>
+            </div>
+            <form method='post' action='logout.php'>
+                <div>
+                    <input type='hidden' name='logout'>
+                    <button type="submit" class="marg2" name="logout" id="logout" action="logout.php">Logout</button>
+                </div>
+            </form>
+          
+            </div>
+            <div class="end marg2">
+                <p>© 2021 |</p>
+                <a class="link" href="../php-pages/impressum.php">Impressum</a>
+            </div>
+        </div>
+    </body>
+</html>

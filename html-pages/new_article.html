@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <title>Neuen Artikel anlegen</title>
+</head>
+<body>
+    <div class="pageWidth">
+        <div class="breadcrumbs">
+            <a class="link" href="../php-pages/startpage.php">Startseite |</a>
+            <a class="link" href="../php-pages/new_article.php">Neuen Artikel anlegen |</a>
+            <a class="link" href="../php-pages/login.php">Login</a>
+        </div>
+        <h1>Neuen Artikel anlegen</h1>
+        <hr>
+        <form id="form" action="new_article.php" method="post" enctype="multipart/form-data">
+            <div class="form">
+                <div>
+                    <p class="marg">Titel</p>
+                    <input type="text" id="title" name="title" class="inputField" required>
+                </div>
+                <div>
+                    <p id="date" class="marg">Datum</p>
+                    <input type="date" name="date" class="inputField extra" required>
+                </div>
+                <div>
+                    <p id="photo" class="marg">Bild</p>
+                    <input type="file" name="photo" class="inputField">
+                </div>
+                <div>
+                    <p class="marg">Text</p>
+                    <textarea id="comment" name="text" class="inputField large-input" required></textarea>
+                </div>
+                <div>
+                    <p id="tags" class="marg">Schlagworte (kommasepariert)</p>
+                    <input type="text" name="tags" class="inputField" required>
+                </div>
+                <div>
+                    <p id="approval">Artikel veröffentlichen?</p>
+                    <input type="radio" id="yes" name="approval" value="1">
+                    <label for="yes">Ja</label><br>
+                    <input type="radio" id="no" name="approval" value="0">
+                    <label for="no">Nein</label><br>
+                </div>
+                <button type="submit" id="save" class="marg2">Speichern</button>
+            </div>
+        </form>
+        <div class="end marg2">
+            <p>© 2021 |</p>
+            <a class="link" href="../php-pages/impressum.php">Impressum</a>
+        </div>
+    </div>
+</body>
+</html>
